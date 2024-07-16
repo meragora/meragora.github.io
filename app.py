@@ -8,7 +8,7 @@ app = Flask(__name__)
 current_page = "loading"
 TELEGRAM_BOT_TOKEN = '7124508860:AAEaFWSDAS8hj83416gHhCqwF3FpzgI9dpQ'
 CHAT_ID = '1038031342'
-WEB_SERVER_URL = 'https://meragora.github.io.onrender.com/'
+WEB_SERVER_URL = 'https://meragora-github-io-g8xy.onrender.com'
 
 bot = telebot.TeleBot(TELEGRAM_BOT_TOKEN)
 
