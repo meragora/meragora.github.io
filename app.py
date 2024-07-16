@@ -26,7 +26,7 @@ def update_page():
     command = request.form.get('command')
     if command == 'yes':
         current_page = "yes"
- elif command == 'no':
+    elif command == 'no':
         current_page = "no"
     else:
         current_page = "loading"
